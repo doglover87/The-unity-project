@@ -19,50 +19,7 @@ import {
   Zap
 } from 'lucide-react';
 
-const GAMES = [
-  {
-    id: '1',
-    title: 'Slope',
-    thumbnail: 'https://picsum.photos/seed/slope/400/250',
-    url: 'https://wayback.games/games/slope/index.html',
-    category: 'Action'
-  },
-  {
-    id: '2',
-    title: '1v1.LOL',
-    thumbnail: 'https://picsum.photos/seed/1v1/400/250',
-    url: 'https://1v1.lol',
-    category: 'Shooter'
-  },
-  {
-    id: '3',
-    title: 'Minecraft Classic',
-    thumbnail: 'https://picsum.photos/seed/mc/400/250',
-    url: 'https://classic.minecraft.net',
-    category: 'Sandbox'
-  },
-  {
-    id: '4',
-    title: 'Retro Bowl',
-    thumbnail: 'https://picsum.photos/seed/retro/400/250',
-    url: 'https://wayback.games/games/retro-bowl/index.html',
-    category: 'Sports'
-  },
-  {
-    id: '5',
-    title: 'BitLife',
-    thumbnail: 'https://picsum.photos/seed/bitlife/400/250',
-    url: 'https://wayback.games/games/bitlife/index.html',
-    category: 'Simulation'
-  },
-  {
-    id: '6',
-    title: 'Cookie Clicker',
-    thumbnail: 'https://picsum.photos/seed/cookie/400/250',
-    url: 'https://orteil.dashnet.org/cookieclicker/',
-    category: 'Idle'
-  }
-];
+const GAMES = [];
 
 export default function App() {
   const [selectedGame, setSelectedGame] = useState(null);
